@@ -15,7 +15,7 @@ FROM alpine
 
 #LABEL "vendor"="#############################"
 #LABEL "vendor.url"="#########################"
-#LABEL "maintainer"="#########################"
+LABEL "maintainer"="ajith.devopspractice@gmail.com"
 
 # Upgrade existing packages in the base image
 RUN apk --no-cache upgrade
